@@ -67,7 +67,7 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 880px;
     margin: 0 auto;
 }
 
@@ -110,8 +110,11 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-}
 
+}
+.Box 1 {
+    background: teal;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +146,24 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+header nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+    }
+header nav a{ margin-right: 65px;
+    font-size: 14px;
+    text-decoration: none;
+
+}
+
+.top-content{
+    display: flex;
+    flex-flow: wrap-reverse
+    display: inline-block;
+    flex-direction: row-reverse
 }
