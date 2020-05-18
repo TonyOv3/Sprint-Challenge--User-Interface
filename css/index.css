@@ -153,6 +153,7 @@ p {
 }
 
 .container {
+<<<<<<< HEAD
   width: 800px;
   margin: 0 auto;
   box-sizing: border-box;
@@ -193,6 +194,10 @@ nav {
 .container nav a:hover {
   background-color: #008cba;
   color: white;
+=======
+    width: 880px;
+    margin: 0 auto;
+>>>>>>> 413f916994f00fa10d8b471ebde6f67e5512bb3a
 }
 
 .top-content {
@@ -226,6 +231,7 @@ nav {
 }
 
 .middle-content .boxes .box {
+<<<<<<< HEAD
   width: 12.5%;
   height: 100px;
   background: black;
@@ -235,7 +241,21 @@ nav {
   align-items: center;
   justify-content: center;
 }
+=======
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+>>>>>>> 413f916994f00fa10d8b471ebde6f67e5512bb3a
 
+}
+.Box 1 {
+    background: teal;
+}
 .bottom-content {
   display: flex;
   margin: 0 2% 20px;
@@ -265,6 +285,32 @@ footer nav {
 }
 
 footer nav a {
+<<<<<<< HEAD
   color: white;
   text-decoration: none;
 }
+=======
+    color: white;
+    text-decoration: none;
+}
+header nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+    }
+header nav a{ margin-right: 65px;
+    font-size: 14px;
+    text-decoration: none;
+
+}
+
+.top-content{
+    display: flex;
+    flex-flow: wrap-reverse
+    display: inline-block;
+    flex-direction: row-reverse
+}
+>>>>>>> 413f916994f00fa10d8b471ebde6f67e5512bb3a
